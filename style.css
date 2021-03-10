@@ -1,0 +1,115 @@
+.body{
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+h1{
+  font-family: 'Akaya Telivigala', cursive;
+}
+.image{
+  position: relative;
+  width: 333px;
+  display: flex;
+  margin: 11px;
+}
+.image__img{
+  display: block;
+  width: 100%;
+}
+.image__overplay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.25s;
+}
+.image__overplay__blur{
+  backdrop-filter: blur(5px);
+}
+.image__overplay > * {
+  transform: translateY(20px);
+  transition:transform 0.25s;
+}
+.image__overplay:hover{
+  opacity: 1;
+}
+.image__overplay:hover > * {
+  transform: translateY(0);
+}
+.image__title{
+  font-size: 2em;
+  font-weight: bold;
+}
+.image__description{
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}
+.div{
+  display: flex;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+img{
+  height: 233px;
+  width: 222px;
+  border: 2px solid;
+}
+.display{
+  display: flex;
+  padding-right: 100px;
+}
+.h1{
+  border: 2px solid;
+  height: 33px;
+  width: 15px;
+}
+.tesak{
+  border: 2px solid;
+  height: 222px;
+  width: 169px;
+  
+}
+.a{
+  border: 2px solid;
+  text-decoration: none;
+  color: black;
+}
+.guyn{
+  color: black;
+}
+.guyn:hover{
+  border: 1px orange solid;
+  background-color: orange;
+}
+.ej1{
+  border: 1px solid;
+}
+.ej2{
+  border: 1px solid;
+}
+.ej3{
+  border: 1px solid;
+}
+.center{
+  display: flex;
+/*}
+.ej1:hover{
+  background-color: orange;
+}
+.ej2:hover{
+  background-color: orange;
+}
+.ej3:hover{
+  background-color: orange;
+}*/
